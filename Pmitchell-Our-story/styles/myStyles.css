@@ -1,0 +1,64 @@
+/*BODY HEADER*/
+header {
+    margin-bottom: 5rem;
+    width: auto;
+	height: 90px;
+	background: black 
+
+
+}
+
+/*TYPOGRAPHY SECTION*/
+section.our-story-typography{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: left;
+    text-align: center;
+    background-color: aqua;
+    position: fixed;
+    top: auto;
+    right: 700px;
+    left: 0px;
+    width: auto;
+    height:auto;
+    
+
+}
+
+
+section.our-story-typography h1{
+    font-size: 3rem;
+    font-style:oblique;
+    color: orange;
+    margin: 0;
+}
+
+section.our-story-typography h2{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+section.our-story-typography p{
+    
+}
+
+
+
+section.our-story-typography img {
+    width: 2rem;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+
+figure.image-info{
+    display: flex;
+	align-items: right;
+	justify-content: right;
+}
