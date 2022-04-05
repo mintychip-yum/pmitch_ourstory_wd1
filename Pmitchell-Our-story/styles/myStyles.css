@@ -8,6 +8,16 @@ header {
 
 }
 
+header nav.primary-navbar-home {
+    position: fixed;
+    left: 700px;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+
 /*TYPOGRAPHY SECTION*/
 section.our-story-typography{
 	display: flex;
@@ -15,7 +25,6 @@ section.our-story-typography{
 	align-items: center;
 	justify-content: left;
     text-align: center;
-    background-color: aqua;
     position: fixed;
     top: auto;
     right: 700px;
@@ -25,7 +34,6 @@ section.our-story-typography{
     
 
 }
-
 
 section.our-story-typography h1{
     font-size: 3rem;
@@ -42,9 +50,8 @@ section.our-story-typography h2{
 
 
 section.our-story-typography p{
-    
+    font-size: 1.5rem;
 }
-
 
 
 section.our-story-typography img {
@@ -56,9 +63,33 @@ section.our-story-typography img {
     text-align: center;
 }
 
+section.our-story-typography a{
+    font-size: 20px;
+    color: orange;
+}
+
+
+
 
 figure.image-info{
     display: flex;
 	align-items: right;
 	justify-content: right;
+}
+
+
+
+/*FOOTER SECTION*/
+footer.primary-footer {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   color: white;
+   background:black
+
+}
+
+footer.primary-footer a{
+    color: white;
 }
