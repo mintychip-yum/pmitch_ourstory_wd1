@@ -19,6 +19,7 @@ header nav.primary-home-link{
 
 header nav.primary-home-link a{
     color: white;
+    text-decoration: underline;
 }
 
 
