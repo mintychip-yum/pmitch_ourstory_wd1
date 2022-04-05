@@ -8,12 +8,31 @@ header {
 
 }
 
+/* BODY-HEADER-NAVIGATION*/
+header nav.primary-home-link{
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 21px;
+}
+
+header nav.primary-home-link a{
+    color: white;
+}
+
+
+
 header nav.primary-navbar-home {
     position: fixed;
-    left: 700px;
-    font-size: 20px;
-    display: flex;
+    left: 800px;
+    margin-top: 25px;
     list-style: none;
+    font-size: 21px;
+   
+}
+
+header nav.primary-navbar-home a{
     color: white;
 }
 
@@ -79,6 +98,7 @@ figure.image-info{
 
 
 
+
 /*FOOTER SECTION*/
 footer.primary-footer {
     position:absolute;
@@ -89,6 +109,7 @@ footer.primary-footer {
    background:black
 
 }
+
 
 footer.primary-footer a{
     color: white;
