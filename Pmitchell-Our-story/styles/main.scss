@@ -1,17 +1,13 @@
 @import "./vendor/normalize.scss";
 @import "./partials/colors";
 @import "./partials/mixins";
+@import "./partials/typography";
 
-nav {
-    background-color: $header-color;
-    ul {
-    margin-bottom: 50px;
-        li {
-    display: inline-block;
-            a {
-    text-decoration: none;
-    color: $primary-font-color;
-            }
-        }
-    }
+
+
+
+
+
+.main-header {
+    @include header-color
 }

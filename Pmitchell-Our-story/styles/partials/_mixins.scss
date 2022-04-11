@@ -1,0 +1,6 @@
+@mixin header-color {
+    color: $secondary-font-color;
+    font-size: 50px ;
+    font-family: $heading-font;
+    font-style: italic;
+}
